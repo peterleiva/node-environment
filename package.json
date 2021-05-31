@@ -7,11 +7,12 @@
     "node": ">=12"
   },
   "scripts": {
-    "lint": "concurrently --raw \"npm:lint:app\" \"npm:lint:tests\"",
-    "lint:app": "npm run eslint -- --ignore-pattern \"**/__*(tests|mocks|snapshots)__/**/*\"",
-    "lint:tests": "npm run eslint -- \"**/__*(tests|mocks|snapshots)__/**/*\"",
+    "lint": "npm run eslint -- \".\"",
+    "lint:app": "npm run eslint -- --ignore-pattern \"**/__*(tests|mocks|snapshots)__/**/*\" ./lib",
+    "lint:tests": "npm run eslint -- \"./lib/**/__*(tests|mocks|snapshots)__/**/*\"",
     "eslint": "eslint --ignore-path .gitignore",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "npm t -- --watch"
   },
   "repository": {
     "type": "git",
@@ -32,7 +33,6 @@
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
     "babel-jest": "^27.0.2",
-    "concurrently": "^6.2.0",
     "eslint": "^7.27.0",
     "eslint-config-google": "^0.14.0",
     "eslint-config-prettier": "^8.3.0",
