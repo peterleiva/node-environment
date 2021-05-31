@@ -1,0 +1,38 @@
+{
+  "name": "node.env-inspector",
+  "version": "0.1.0",
+  "description": "Inspect NODE_ENV environment variable",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "lint": "concurrently --raw \"npm:lint:app\" \"npm:lint:tests\"",
+    "lint:app": "npm run eslint -- --ignore-pattern \"**/__*(tests|mocks|snapshots)__/**/*\"",
+    "lint:tests": "npm run eslint -- \"**/__*(tests|mocks|snapshots)__/**/*\"",
+    "eslint": "eslint --ignore-path .gitignore",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theFiero/node.env-inspector.git"
+  },
+  "keywords": [
+    "NODE_ENV",
+    "inspector",
+    "test"
+  ],
+  "author": "Fiero <github.gonopores@slmail.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/theFiero/node.env-inspector/issues"
+  },
+  "homepage": "https://github.com/theFiero/node.env-inspector#readme",
+  "devDependencies": {
+    "concurrently": "^6.2.0",
+    "eslint": "^7.27.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-node": "^11.1.0"
+  }
+}
