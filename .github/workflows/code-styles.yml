@@ -1,0 +1,12 @@
+name: Code Styles
+on: [push]
+
+jobs:
+    CodeStyles:
+        runs-on: ${{matrix.os}}
+        strategy:
+            matrix:
+                node: ["12.x", "14.x", "16.x"]
+                os: [windows-latest, ubuntu-latest, macos-latest]
+        steps:
+          - name: checks
