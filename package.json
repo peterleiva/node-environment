@@ -2,10 +2,12 @@
   "name": "node.env-inspector",
   "version": "0.1.0",
   "description": "Inspect NODE_ENV environment variable",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "engines": {
     "node": ">=12"
   },
+  "types": "./lib/index.d.ts",
+  "exports": "./lib/index.js",
   "scripts": {
     "typecheck": "tsc --noEmit -p jsconfig.json",
     "format": "npm run prettier -- --write",
