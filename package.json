@@ -7,6 +7,7 @@
     "node": ">=12"
   },
   "scripts": {
+    "typecheck": "tsc --noEmit -p jsconfig.json",
     "format": "npm run prettier -- --write",
     "format:check": "npm run prettier -- --check",
     "prettier": "prettier --ignore-path .gitignore --ignore-unknown \".\"",
@@ -35,6 +36,7 @@
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
+    "@tsconfig/node16": "^1.0.1",
     "babel-jest": "^27.0.2",
     "eslint": "^7.27.0",
     "eslint-config-google": "^0.14.0",

@@ -1,4 +1,8 @@
 {
   "extends": "@tsconfig/node16/tsconfig.json",
-  "files": ["./lib/**/*"]
+  "compilerOptions": {
+    "rootDir": "./lib",
+    "outDir": "./dist"
+  },
+  "include": ["./lib/**/*"]
 }
