@@ -1,6 +1,6 @@
 {
   "name": "node.env-inspector",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Inspect NODE_ENV environment variable",
   "main": "./lib/index.js",
   "engines": {
