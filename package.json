@@ -45,6 +45,8 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.3",
+    "jest-extended": "^0.11.5",
+    "jest-watch-typeahead": "^0.6.4",
     "prettier": "^2.3.0"
   }
 }

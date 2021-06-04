@@ -5,4 +5,17 @@
 module.exports = {
   collectCoverage: true,
   coverageDirectory: 'coverage',
+  coverageThreshold: {
+    global: {
+      statements: -5,
+      branches: 90,
+      lines: 95,
+      functions: 95,
+    },
+  },
+  setupFilesAfterEnv: ['jest-extended'],
+  watchPlugins: [
+    'jest-watch-typeahead/filename',
+    'jest-watch-typeahead/testname',
+  ],
 }
