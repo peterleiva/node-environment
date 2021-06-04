@@ -7,4 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.1.0...HEAD
+## [0.2.0-aplha.0] - 2021-06-04
+
+### Added
+
+-   inspect NODE_ENV environment variable and query for specific value or return its value if none is given through `env` interface
+-   Add authored declaration file [index.d.ts](/lib/index.d.ts) to be used by typescript projects
+
+## [0.1.0] - 2021-06-04
+
+### Added
+
+-   project setup with prettier, eslint and jest
+
+[unreleased]: https://github.com/theFiero/node.env-inspector/compare/v0.2.0-alpha.0...HEAD
+[0.2.0-aplha.0]: https://github.com/theFiero/node.env-inspector/compare/v0.1.0...v0.2.0-alpha.0
+[0.1.0]: https://github.com/theFiero/node.env-inspector/releases/tag/v0.1.0
