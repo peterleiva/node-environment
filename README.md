@@ -1,6 +1,6 @@
-[![Code Style](https://github.com/theFiero/node.env-inspector/actions/workflows/code-style.yml/badge.svg)](https://github.com/theFiero/node.env-inspector/actions/workflows/code-style.yml) [![Publish to NPM](https://github.com/theFiero/node.env-inspector/actions/workflows/publish-npm.yml/badge.svg)](https://github.com/theFiero/node.env-inspector/actions/workflows/publish-npm.yml)
+[![Code Style](https://github.com/pherval/node-environment/actions/workflows/code-style.yml/badge.svg)](https://github.com/pherval/node-environment/actions/workflows/code-style.yml) [![Publish to NPM](https://github.com/pherval/node-environment/actions/workflows/publish-npm.yml/badge.svg)](https://github.com/pherval/node-environment/actions/workflows/publish-npm.yml)
 
-# node.env-inspector
+# node-environment
 
 Inspect or return the environment variable `NODE_ENV`
 
@@ -17,10 +17,10 @@ Inspect or return the environment variable `NODE_ENV`
 
 ## Installation
 
-Install `node.env-inspector` with npm
+Install `node-environment` with npm
 
 ```bash
-  npm install node.env-inspector
+  npm install node-environment
 ```
 
 ## Usage/Examples
@@ -28,13 +28,13 @@ Install `node.env-inspector` with npm
 Using CommonJS modules
 
 ```javascript
-const { env } = require('node.env-inspector')
+const { env } = require('node-environment')
 ```
 
 Using ECMAScript modules
 
 ```javascript
-import { env } from 'node.env-inspector'
+import { env } from 'node-environment'
 ```
 
 ```javascript

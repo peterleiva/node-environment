@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   typescript index.d.ts correctly expose the API
 
+### Changed
+
+-   Rename package name from node.env-inspector to node-environment
+
 ## [0.3.0] - 2021-06-04
 
 ### Added
@@ -30,7 +34,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   project setup with prettier, eslint and jest
 
-[unreleased]: https://github.com/theFiero/node.env-inspector/compare/v0.3.0...HEAD
-[0.3.0]: https://github.com/theFiero/node.env-inspector/compare/v0.2.0...v0.3.0
-[0.2.0]: https://github.com/theFiero/node.env-inspector/compare/v0.1.0...v0.2.0
-[0.1.0]: https://github.com/theFiero/node.env-inspector/releases/tag/v0.1.0
+[unreleased]: https://github.com/pherval/node-environment/compare/v0.3.0...HEAD
+[0.3.0]: https://github.com/pherval/node-environment/compare/v0.2.0...v0.3.0
+[0.2.0]: https://github.com/pherval/node-environment/compare/v0.1.0...v0.2.0
+[0.1.0]: https://github.com/pherval/node-environment/releases/tag/v0.1.0

@@ -1,5 +1,5 @@
 {
-  "name": "node.env-inspector",
+  "name": "node-environment",
   "version": "0.3.1",
   "description": "Inspect NODE_ENV environment variable",
   "main": "./lib/index.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theFiero/node.env-inspector.git"
+    "url": "git+https://github.com/pherval/node-environment.git"
   },
   "keywords": [
     "NODE_ENV",
@@ -32,9 +32,9 @@
   "author": "Fiero <github.gonopores@slmail.me>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theFiero/node.env-inspector/issues"
+    "url": "https://github.com/pherval/node-environment/issues"
   },
-  "homepage": "https://github.com/theFiero/node.env-inspector#readme",
+  "homepage": "https://github.com/pherval/node-environment#readme",
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
