@@ -1,3 +1,3 @@
-function env(environment: string): boolean
+function env(query: string, ...others: string[]): boolean
 function env(): string
-export function env(environment?: string): boolean | string
+export function env(...query: string[]): boolean | string
