@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+-   typescript index.d.ts correctly expose the API
+
 ## [0.3.0] - 2021-06-04
 
 ### Added
