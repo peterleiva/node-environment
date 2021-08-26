@@ -41,6 +41,8 @@ import { env } from 'node-environment'
 process.env.NODE_ENV = 'dev'
 
 env('development') // true
+env('staging', 'development') // true
+env('test', 'production') // false
 env() // "dev"
 ```
 
@@ -49,7 +51,8 @@ env() // "dev"
 The package only expose one function:
 
 ```javascript
-  env(query?: string): boolean | string
+  env(): string
+  env(query: string, ...otherEnvironments: string[]): boolean
 ```
 
 #### Aliases:
