@@ -13,7 +13,7 @@ module.exports = {
       functions: 95,
     },
   },
-  setupFilesAfterEnv: ['jest-extended'],
+  setupFilesAfterEnv: ['jest-extended/all'],
   watchPlugins: [
     'jest-watch-typeahead/filename',
     'jest-watch-typeahead/testname',
