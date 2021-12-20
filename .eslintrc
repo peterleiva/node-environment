@@ -18,7 +18,7 @@
 
     "overrides": [
         {
-            "files": ["**/__*(tests|mocks|snapshots)__/**/*.js"],
+            "files": ["**/__+(tests|mocks|snapshots)__/**/*"],
             "env": {
                 "jest/globals": true
             },
